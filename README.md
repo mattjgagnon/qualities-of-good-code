@@ -2,20 +2,28 @@
 
 ## Good code is S.P.O.R.T.
 - Secure: Is safe from external and internal threats
-- Performant: Is efficient from a user and code speed perspective
+- Performant: Is efficient for the user, server memory, and serspace
 - Operative: Does what it is supposed to
 - Readable: Is easily readable and maintainable
 - Tested: Has automated tests for all the critical parts
 
+### Secure
+
+### Performant
+
 ### Operative
 - Does the code work and perform its intended function?
 
+### Readable
+- Is each function short and not complex? (For example, 20 LOC or fewer and CC of less than 6. This aids understanding and maintainability.)
+- Can the function's purpose be easily derived from its name? (Also methods, classes, interfaces)
+
+### Tested
+- If it's a critical function, does it have at least one unit test for each code branch? And if it is critical, does it log some useful information?
+
 ## More detail
 - Is the code broken out into single responsibility functions/methods/classes?
-- Is each function short and not complex? (For example, 20 LOC or fewer and CC of less than 6. This aids understanding and maintainability.)
 - (optional if the function is named properly, and type hints are used for params and function returns) Is there at least a minimal docblock or comment for the function, explaining what it does, what each parameter is, and what it returns?
-- If it's a critical function, does it have at least one unit test for each code branch? And if it is critical, does it log some useful information?
-- Can the function's purpose be easily derived from its name? (Also methods, classes, interfaces)
 - Logs useful information consistently across the software
 - Are variables/properties named in a manner that they are clear what they store?
 - Are classes in their own files? Likewise, are groups of related functions in their own file?
