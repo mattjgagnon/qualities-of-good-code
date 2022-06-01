@@ -1,14 +1,16 @@
 # Qualities of good code
 
-## Good code
-- Does what it is supposed to
-- Is easily readable and maintainable
-- Has few bugs
-- Is efficient from a user and code speed perspective
-- Has automated tests for all the critical parts
+## Good code is S.P.O.R.T.
+- Secure: Is safe from external and internal threats
+- Performant: Is efficient from a user and code speed perspective
+- Operative: Does what it is supposed to
+- Readable: Is easily readable and maintainable
+- Tested: Has automated tests for all the critical parts
+
+### Operative
+- Does the code work and perform its intended function?
 
 ## More detail
-- Does the code work and perform its intended function?
 - Is the code broken out into single responsibility functions/methods/classes?
 - Is each function short and not complex? (For example, 20 LOC or fewer and CC of less than 6. This aids understanding and maintainability.)
 - (optional if the function is named properly, and type hints are used for params and function returns) Is there at least a minimal docblock or comment for the function, explaining what it does, what each parameter is, and what it returns?
