@@ -2,10 +2,10 @@
 
 ## Good code is S.P.O.R.T.
 - Secure: Is safe from external and internal threats
-- Performant: Is efficient for the user, server memory, and serspace
+- Performant: Is efficient for the user, server memory, and server space
 - Operative: Does what it is supposed to
 - Readable: Is easily readable and maintainable
-- Tested: Has automated tests for all the critical parts
+- Tested: Has automated tests
 
 ### Secure
 
