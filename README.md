@@ -8,11 +8,16 @@
 - Tested: Has automated tests
 
 ### Secure
+- Does the code have logic for common attack vectors?
+- Does the code gracefully and securely handle less well known vectors?
 
 ### Performant
+- Is the best data structure used for each unit of code?
+- Is the best algorithm used for each unit of code?
 
 ### Operative
 - Does the code work and perform its intended function?
+- Are happy and unhappy paths fully thought through and covered?
 
 ### Readable
 - Is each function short and not complex? (For example, 20 LOC or fewer and CC of less than 6. This aids understanding and maintainability.)
@@ -23,7 +28,8 @@
 
 ## More detail
 - Is the code broken out into single responsibility functions/methods/classes?
-- (optional if the function is named properly, and type hints are used for params and function returns) Is there at least a minimal docblock or comment for the function, explaining what it does, what each parameter is, and what it returns?
+- (optional if the function is named properly, and type hints are used for params and function returns)
+- Is there at least a minimal docblock or comment for the function, explaining what it does, what each parameter is, and what it returns?
 - Logs useful information consistently across the software
 - Are variables/properties named in a manner that they are clear what they store?
 - Are classes in their own files? Likewise, are groups of related functions in their own file?
@@ -42,6 +48,8 @@
 - Is the interface/class/method called or used anywhere? (Be careful of “magic” or dynamically called code)
 - Likewise, is there a good library that can be substituted for some parts, instead of custom code?
 - Are all variables used in the function? Parameters also?
-- Are try/catch/throw or other error catching means employed with critical logic? (If the function fails, does it do so gracefully? Does it actually handle the exception/error?)
+- Are try/catch/throw or other error catching means employed with critical logic?
+  - If the function fails, does it do so gracefully?
+  - Does it actually handle the exception/error?
 - Can variables passed by reference instead be returned?
 - Are guard clauses used to fail fast?
